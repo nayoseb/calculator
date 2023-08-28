@@ -36,10 +36,10 @@ public class Calculator {
             System.out.println(one+"-"+two+"="+sub(one, two));
         }
         else if (sign.equals("*")){
-            System.out.println(one+"*"+two+"="+div(one, two));
+            System.out.println(one+"*"+two+"="+multi(one, two));
         }
         else if (sign.equals("/")){
-            System.out.println(one+"+"+two+"="+multi(one, two));
+            System.out.println(one+"+"+two+"="+div(one, two));
         }
         else {
             System.out.println("입력값 오류");
