@@ -12,8 +12,8 @@ public class Calculator {
             4. 연산 결과를 콘솔에 출력합니다.
         */
         // TODO...
-        int one;
-        int two;
+        double one;
+        double two;
 
         String sign = "";
         Scanner scan = new Scanner(System.in);
@@ -50,22 +50,22 @@ public class Calculator {
 
 
 
-    public static int add(int a, int b) {
+    public static double add(double a, double b) {
         //Todo
         return 0;
     }
 
-    public static int sub(int a, int b) {
+    public static double sub(double a, double b) {
         //Todo
         return 0;
     }
 
-    public static int div(int a, int b) {
+    public static double div(double a, double b) {
         //Todo
         return 0;
     }
 
-    public static int multi(int a, int b) {
+    public static double multi(double a, double b) {
         //Todo
         return 0;
     }
