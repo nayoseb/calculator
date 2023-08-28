@@ -57,7 +57,7 @@ public class Calculator {
 
     public static double sub(double a, double b) {
         //Todo
-        return 0;
+        return a - b;
     }
 
     public static double div(double a, double b) {
