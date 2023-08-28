@@ -66,7 +66,6 @@ public class Calculator {
     }
 
     public static double multi(double a, double b) {
-        //Todo
-        return 0;
+        return a * b;
     }
 }
