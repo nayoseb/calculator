@@ -61,8 +61,10 @@ public class Calculator {
     }
 
     public static double div(double a, double b) {
-        //Todo
-        return 0;
+
+        if(a==0)
+            throw new IllegalArgumentException("0으로 나눌 수 없습니다.");
+        return a/b;
     }
 
     public static double multi(double a, double b) {
